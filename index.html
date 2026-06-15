@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZUZULAND | Prémiové legální cannabis produkty</title>
+    <meta name="description" content="Prémiový e-commerce koncept ZUZULAND pro legální cannabis produkty, CBD, aromatické a sběratelské produkty dle platné legislativy.">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="ZUZULAND">
+    <meta property="og:description" content="Prémiové legální cannabis produkty. Laboratorně testováno, rychlé doručení, B2B spolupráce.">
+    <meta property="og:image" content="assets/hero-products.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="ZUZULAND home">zuzuland</a>
+      <nav class="desktop-nav" aria-label="Hlavní navigace">
+        <a href="#shop">Shop</a>
+        <a href="#product">Produkt</a>
+        <a href="#b2b">B2B</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <button class="cart-trigger" type="button" aria-label="Otevřít košík">
+        <span>Košík</span>
+        <strong data-cart-count>0</strong>
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Legal cannabis · premium quality · lab tested</p>
+          <h1>ZUZULAND</h1>
+          <p>Prémiové legální cannabis produkty.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#shop">Nakupovat</a>
+            <a class="button secondary" href="#b2b">B2B spolupráce</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-label="Prémiové produktové obaly ZUZULAND">
+          <img class="hero-pack hero-pack-left" src="assets/mango-kush.png" alt="ZUZULAND Mango Kush balení" fetchpriority="high">
+          <img class="hero-pack hero-pack-main" src="assets/gelato-cello.png" alt="ZUZULAND Gelato Cello balení" fetchpriority="high">
+          <img class="hero-pack hero-pack-right" src="assets/lemon-haze.png" alt="ZUZULAND Lemon Haze balení" fetchpriority="high">
+        </div>
+      </section>
+
+      <section class="category-band section-reveal" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <p class="eyebrow">Vyberte účinek a charakter</p>
+          <h2 id="categories-title">Kategorie</h2>
+        </div>
+        <div class="category-grid">
+          <a href="#shop" class="category-card sativa">
+            <span>Sativa</span>
+            <small>Jasný, citrusový profil</small>
+          </a>
+          <a href="#shop" class="category-card hybrid">
+            <span>Hybrid</span>
+            <small>Vyvážené aroma a chuť</small>
+          </a>
+          <a href="#shop" class="category-card indica">
+            <span>Indica</span>
+            <small>Hlubší večerní charakter</small>
+          </a>
+        </div>
+      </section>
+
+      <section id="shop" class="shop section-reveal" aria-labelledby="shop-title">
+        <div class="section-heading wide">
+          <p class="eyebrow">Shop</p>
+          <h2 id="shop-title">Bestsellery</h2>
+          <p>Ukázková produktová mřížka připravená pro napojení na Shopify nebo WooCommerce katalog.</p>
+        </div>
+        <div class="shop-layout">
+          <aside class="filters" aria-label="Filtrace produktů">
+            <h3>Kategorie</h3>
+            <button class="filter active" data-filter="all" type="button">Vše</button>
+            <button class="filter" data-filter="sativa" type="button">Sativa</button>
+            <button class="filter" data-filter="hybrid" type="button">Hybrid</button>
+            <button class="filter" data-filter="indica" type="button">Indica</button>
+            <hr>
+            <label>Typ produktu<select><option>Všechny typy</option><option>Flower</option><option>Pre-roll</option><option>Aromatické</option></select></label>
+            <label>Cena<select><option>Bez omezení</option><option>Do 500 Kč</option><option>500 až 900 Kč</option></select></label>
+            <label>Síla<select><option>Standard</option><option>Silnější profil</option><option>CBD focus</option></select></label>
+            <label class="check"><input type="checkbox"> Novinky</label>
+          </aside>
+
+          <div class="product-grid">
+            <article class="product-card" data-category="hybrid">
+              <img src="assets/mango-kush.png" alt="ZUZULAND Mango Kush hybrid balení" loading="lazy">
+              <div>
+                <p class="tag">Hybrid · 3 g</p>
+                <h3>Mango Kush</h3>
+                <p class="price">649 Kč</p>
+                <button class="add-to-cart" type="button" data-name="Mango Kush" data-price="649">Přidat do košíku</button>
+              </div>
+            </article>
+            <article class="product-card" data-category="indica">
+              <img src="assets/gelato-cello.png" alt="ZUZULAND Gelato Cello balení" loading="lazy">
+              <div>
+                <p class="tag">Indica · 3 g</p>
+                <h3>Gelato Cello</h3>
+                <p class="price">679 Kč</p>
+                <button class="add-to-cart" type="button" data-name="Gelato Cello" data-price="679">Přidat do košíku</button>
+              </div>
+            </article>
+            <article class="product-card" data-category="sativa">
+              <img src="assets/lemon-haze.png" alt="ZUZULAND Lemon Haze sativa balení" loading="lazy">
+              <div>
+                <p class="tag">Sativa · 3 g</p>
+                <h3>Lemon Haze</h3>
+                <p class="price">649 Kč</p>
+                <button class="add-to-cart" type="button" data-name="Lemon Haze" data-price="649">Přidat do košíku</button>
+              </div>
+            </article>
+            <article class="product-card" data-category="sativa">
+              <img src="assets/gold-pre-roll.png" alt="ZUZULAND Lemon Haze pre-roll" loading="lazy">
+              <div>
+                <p class="tag">Pre-roll · aroma</p>
+                <h3>Lemon Haze Stick</h3>
+                <p class="price">289 Kč</p>
+                <button class="add-to-cart" type="button" data-name="Lemon Haze Stick" data-price="289">Přidat do košíku</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits section-reveal" aria-label="Výhody ZUZULAND">
+        <div><strong>Laboratorně testováno</strong><span>Certifikované šarže a jasná dokumentace.</span></div>
+        <div><strong>Prémiová kvalita</strong><span>Výběrové aroma, výrazný branding a čisté balení.</span></div>
+        <div><strong>Rychlé doručení</strong><span>Diskrétní expedice a jasné informace o dopravě.</span></div>
+        <div><strong>Legální produkty</strong><span>Nabídka nastavena dle aktuální legislativy.</span></div>
+      </section>
+
+      <section id="product" class="product-detail section-reveal" aria-labelledby="detail-title">
+        <div class="gallery">
+          <img class="main-product" src="assets/gelato-cello.png" alt="Detail produktu Gelato Cello">
+          <div class="thumb-row">
+            <img src="assets/gelato-cello.png" alt="">
+            <img src="assets/lemon-haze.png" alt="">
+            <img src="assets/black-pre-roll.png" alt="">
+          </div>
+        </div>
+        <div class="detail-copy">
+          <p class="eyebrow">Produktová stránka</p>
+          <h2 id="detail-title">Gelato Cello</h2>
+          <p class="price large">679 Kč</p>
+          <p>Prémiový aromatický produkt s výrazným sladkým profilem, sběratelským balením a laboratorní dokumentací ke každé šarži.</p>
+          <ul class="clean-list">
+            <li>Výrazné holografické balení</li>
+            <li>Legální produkt dle deklarace prodejce</li>
+            <li>Laboratorní certifikáty ke stažení</li>
+          </ul>
+          <div class="certificate-row">
+            <a href="#certifikaty">COA šarže 06/26</a>
+            <a href="#certifikaty">Bezpečnostní list</a>
+          </div>
+          <button class="button primary add-to-cart" type="button" data-name="Gelato Cello" data-price="679">Přidat do košíku</button>
+        </div>
+      </section>
+
+      <section id="b2b" class="b2b section-reveal" aria-labelledby="b2b-title">
+        <div class="b2b-visual">
+          <img src="assets/b2b-banner.png" alt="ZUZULAND B2B velkoobchodní spolupráce" loading="lazy">
+        </div>
+        <div class="b2b-copy">
+          <p class="eyebrow">Velkoobchod</p>
+          <h2 id="b2b-title">Velkoobchodní spolupráce.</h2>
+          <p>Staňte se obchodním partnerem značky ZUZULAND a získejte sortiment s výrazným shelf appeal.</p>
+          <div class="mini-grid">
+            <span>Velkoobchodní ceny</span>
+            <span>Rychlé dodání</span>
+            <span>White label</span>
+            <span>Individuální přístup</span>
+          </div>
+          <ol class="process">
+            <li><strong>Registrace</strong><span>Vyplnění B2B formuláře.</span></li>
+            <li><strong>Schválení</strong><span>Ověření provozovny a sortimentu.</span></li>
+            <li><strong>Objednávka</strong><span>Nastavení ceníku a dostupnosti.</span></li>
+            <li><strong>Dodání</strong><span>Rychlá expedice na provozovnu.</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-reveal" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="contact-title">Staňte se obchodním partnerem.</h2>
+          <p>Formulář je připravený na napojení do CRM, Shopify Forms nebo WooCommerce B2B pluginu.</p>
+        </div>
+        <form>
+          <input type="text" name="company" placeholder="Název firmy" aria-label="Název firmy">
+          <input type="email" name="email" placeholder="E-mail" aria-label="E-mail">
+          <input type="tel" name="phone" placeholder="Telefon" aria-label="Telefon">
+          <textarea name="message" placeholder="Zpráva" aria-label="Zpráva"></textarea>
+          <button class="button primary" type="button">Odeslat poptávku</button>
+        </form>
+      </section>
+
+      <section class="reviews section-reveal" aria-label="Reference zákazníků">
+        <blockquote>“Výrazné balení, čistá komunikace a sortiment, který v regálu okamžitě přitahuje pozornost.” <cite>Retail partner, Praha</cite></blockquote>
+        <blockquote>“ZUZULAND působí jako moderní DTC značka, ne jako anonymní komodita.” <cite>B2B odběratel</cite></blockquote>
+      </section>
+
+      <section id="faq" class="faq section-reveal" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Časté dotazy</h2>
+        </div>
+        <details open><summary>Jsou produkty legální?</summary><p>Sortiment je prezentován jako legální dle deklarace prodejce a má být průběžně kontrolován proti aktuální legislativě.</p></details>
+        <details><summary>Máte laboratorní certifikáty?</summary><p>Produktové stránky počítají se stažením COA a bezpečnostních listů pro jednotlivé šarže.</p></details>
+        <details><summary>Je web připravený na e-commerce?</summary><p>Ano. Struktura produktů, košík a B2B formulář jsou připravené pro napojení na Shopify nebo WooCommerce.</p></details>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <a class="brand" href="#home">zuzuland</a>
+        <p>Prémiové legální cannabis produkty. Prodej pouze osobám splňujícím zákonné podmínky.</p>
+      </div>
+      <nav aria-label="Další stránky">
+        <a href="#about">O nás</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#faq">FAQ</a>
+        <a href="#shipping">Doprava a platba</a>
+        <a href="#terms">Obchodní podmínky</a>
+        <a href="#gdpr">GDPR</a>
+        <a href="#cookies">Cookies</a>
+      </nav>
+    </footer>
+
+    <aside class="cart" aria-hidden="true" aria-label="Košík">
+      <div class="cart-panel">
+        <div class="cart-head">
+          <h2>Košík</h2>
+          <button class="cart-close" type="button" aria-label="Zavřít košík">×</button>
+        </div>
+        <div class="cart-items" data-cart-items>
+          <p class="empty">Košík je zatím prázdný.</p>
+        </div>
+        <div class="subtotal">
+          <span>Mezisoučet</span>
+          <strong data-cart-total>0 Kč</strong>
+        </div>
+        <button class="button primary checkout" type="button">Pokračovat k pokladně</button>
+      </div>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
